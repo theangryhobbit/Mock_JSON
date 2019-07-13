@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "username": "test",
+      "password": "test",
+      "planning": [
+        {
+          "date": "Donderdag 10 Augustus 2019",
+          "buildings": [
+            {
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB"
+            },
+            {          
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ"
+            }
+          ]
+        },
+        {
+          "date": "Vrijdag 11 Augustus 2019",
+          "buildings": [
+            {
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB"
+            },
+            {          
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "planning": [
+        {
+          "date": "Donderdag 10 Augustus 2019",
+          "buildings": [
+            {
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB"
+            },
+            {          
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ"
+            }
+          ]
+        }   
+      ]
+    }
+  ]
+}
