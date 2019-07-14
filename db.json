@@ -1,6 +1,7 @@
 {
   "users": [
     {
+      "id": 1,
       "username": "test",
       "password": "test",
       "planning": [
@@ -41,6 +42,7 @@
       ]
     },
     {
+      "id": 2,
       "username": "admin",
       "password": "admin",
       "planning": [
