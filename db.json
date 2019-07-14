@@ -3,75 +3,71 @@
     {
       "id": 1,
       "username": "test",
-      "password": "test"      
+      "password": "test",
+      "authkey": "abcd1234",
+      "authexpr": 1564617600
     },
     {
       "id": 2,
       "username": "admin",
-      "password": "admin"    
+      "password": "admin",
+      "authkey": "wxyz6789",
+      "authexpr": 1563062400
     }
   ],
-  "planning": [
+  "schedules": [
     {
-      "id": 1,      
-      "dates": [
-        {
-          "date": "Donderdag 10 Augustus 2019",
-          "buildings": [
-            {
-              "street": "Straatnaam",
-              "suite": "123",
-              "city": "Stad",
-              "zipcode": "1234 AB"
-            },
-            {          
-              "street": "Noordeinde",
-              "suite": "321",
-              "city": "Dorp",
-              "zipcode": "4321 YZ"
-            }
-          ]
-        },
-        {
-          "date": "Vrijdag 11 Augustus 2019",
-          "buildings": [
-            {
-              "street": "Straatnaam",
-              "suite": "123",
-              "city": "Stad",
-              "zipcode": "1234 AB"
-            },
-            {          
-              "street": "Noordeinde",
-              "suite": "321",
-              "city": "Dorp",
-              "zipcode": "4321 YZ"
-            }
-          ]
-        }
-      ]
+      "id": 1,
+      "userId": 1,
+      "date": "Donderdag 10 Augustus 2019"
     },
     {
-      "id": 2,      
-      "dates": [
-        {
-          "date": "Donderdag 10 Augustus 2019",
-          "buildings": [
-            {
-              "street": "Straatnaam",
-              "suite": "123",
-              "city": "Stad",
-              "zipcode": "1234 AB"
-            },
-            {          
-              "street": "Noordeinde",
-              "suite": "321",
-              "city": "Dorp",
-              "zipcode": "4321 YZ"
-            }
-          ]
-        }   
-      ]
+      "id": 2,
+      "userId": 1,
+      "date": "Vrijdag 11 Augustus 2019"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "date": "Donderdag 10 Augustus 2019"
+    }
+  ],
+  "buildings": [
+    {
+      "id": 1,
+      "scheduleId": 1,
+      "time": "13:30 - 14:00",
+      "street": "Straatnaam",
+      "suite": "123",
+      "city": "Stad",
+      "zipcode": "1234 AB"
+    },
+    {      
+      "id": 2,
+      "scheduleId": 1,
+      "time": "14:00 - 14:30",
+      "street": "Noordeinde",
+      "suite": "321",
+      "city": "Dorp",
+      "zipcode": "4321 YZ"
+    },
+    {
+      "id": 3,
+      "scheduleId": 2,
+      "time": "15:30 - 16:00",
+      "street": "Straatnaam",
+      "suite": "123",
+      "city": "Stad",
+      "zipcode": "1234 AB"
+    },
+    {      
+      "id": 4,
+      "scheduleId": 3,
+      "time": "18:00 - 18:30",
+      "street": "Noordeinde",
+      "suite": "321",
+      "city": "Dorp",
+      "zipcode": "4321 YZ"
     }
   ]
 }
