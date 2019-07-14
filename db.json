@@ -2,6 +2,7 @@
   "users": [
     {
       "id": 1,
+      "email": "test@mail.com",
       "username": "test",
       "password": "test",
       "authkey": "abcd1234",
@@ -9,6 +10,7 @@
     },
     {
       "id": 2,
+      "email": "admin@mail.com",
       "username": "admin",
       "password": "admin",
       "authkey": "wxyz6789",
