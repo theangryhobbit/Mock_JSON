@@ -3,8 +3,18 @@
     {
       "id": 1,
       "username": "test",
-      "password": "test",
-      "planning": [
+      "password": "test"      
+    },
+    {
+      "id": 2,
+      "username": "admin",
+      "password": "admin"    
+    }
+  ],
+  "planning": [
+    {
+      "id": 1,      
+      "dates": [
         {
           "date": "Donderdag 10 Augustus 2019",
           "buildings": [
@@ -42,10 +52,8 @@
       ]
     },
     {
-      "id": 2,
-      "username": "admin",
-      "password": "admin",
-      "planning": [
+      "id": 2,      
+      "dates": [
         {
           "date": "Donderdag 10 Augustus 2019",
           "buildings": [
