@@ -2,133 +2,435 @@
   "users": [
     {
       "id": 1,
-      "email": "test@mail.com",
       "username": "test",
       "password": "test",
-      "authkey": "abcd1234",
-      "authexpr": 1564617600
-    },
-    {
-      "id": 2,
-      "email": "admin@mail.com",
-      "username": "admin",
-      "password": "admin",
-      "authkey": "wxyz6789",
-      "authexpr": 1563062400
+      "email": "test@mail.com",
+      "token": "abcd1234",
+      "schedules": [
+        {
+          "date": 1563796800,
+          "addresses": [
+            {
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {      
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {      
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": 1563796800,
+          "addresses": [
+            {
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {      
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {      
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "date": 1563883200,
+          "addresses": [
+            {
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {      
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Straatnaam",
+              "suite": "123",
+              "city": "Stad",
+              "zipcode": "1234 AB",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            },
+            {      
+              "startTime": 1563796800,
+              "endTime": 1563798600,
+              "street": "Noordeinde",
+              "suite": "321",
+              "city": "Dorp",
+              "zipcode": "4321 YZ",
+              "heatCostAllocators": [
+                {
+                  "code": 12345678,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 88888888,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 11111111,
+                  "room": "Woonkamer"
+                },
+                {
+                  "code": 22222222,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 33333333,
+                  "room": "Slaapkamer"
+                },
+                {
+                  "code": 44444444,
+                  "room": "Keuken"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
-  ],
-  "schedules": [
-    {
-      "id": 1,
-      "userId": 1,
-      "date": "Donderdag 10 Augustus 2019"
-    },
-    {
-      "id": 2,
-      "userId": 1,
-      "date": "Vrijdag 11 Augustus 2019"
-    },
-    {
-      "id": 3,
-      "userId": 2,
-      "date": "Donderdag 10 Augustus 2019"
-    }
-  ],
-  "buildings": [
-    {
-      "id": 1,
-      "scheduleId": 1,
-      "time": "13:30 - 14:00",
-      "street": "Straatnaam",
-      "suite": "123",
-      "city": "Stad",
-      "zipcode": "1234 AB"
-    },
-    {      
-      "id": 2,
-      "scheduleId": 1,
-      "time": "14:00 - 14:30",
-      "street": "Noordeinde",
-      "suite": "321",
-      "city": "Dorp",
-      "zipcode": "4321 YZ"
-    },
-    {
-      "id": 3,
-      "scheduleId": 2,
-      "time": "15:30 - 16:00",
-      "street": "Straatnaam",
-      "suite": "123",
-      "city": "Stad",
-      "zipcode": "1234 AB"
-    },
-    {      
-      "id": 4,
-      "scheduleId": 3,
-      "time": "18:00 - 18:30",
-      "street": "Noordeinde",
-      "suite": "321",
-      "city": "Dorp",
-      "zipcode": "4321 YZ"
-    }
-  ],
-  "rooms": [
-    {
-      "id": 1,
-      "buildingId": 1,
-      "roomname": "Woonkamer"
-    },
-    {
-      "id": 2,
-      "buildingId": 1,
-      "roomname": "Slaapkamer"
-    },
-    {
-      "id": 3,
-      "buildingId": 2,
-      "roomname": "Voorkamer"
-    },
-    {
-      "id": 4,
-      "buildingId": 3,
-      "roomname": "Keuken"
-    },
-    {
-      "id": 5,
-      "buildingId": 4,
-      "roomname": "Badkamer"   
-    }
-  ],
-  "wkvs": [
-    {
-      "id": 1,
-      "roomId": 1,
-      "code": 12345678
-    },
-    {
-      "id": 2,
-      "roomId": 1,
-      "code": 88888888
-    },
-    {
-      "id": 3,
-      "roomId": 2,
-      "code": 11111111
-    },
-    {
-      "id": 4,
-      "roomId": 3,
-      "code": 22222222
-    },
-    {
-      "id": 5,
-      "roomId": 4,
-      "code": 33333333
-    },
-    {
-      "id": 6,
-      "roomId": 5,
-      "code": 44444444
-    }
-  ]  
+  ]
 }
